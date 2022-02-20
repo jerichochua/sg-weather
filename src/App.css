@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #282c34;
+  background-color: #22223b;
   color: white;
 }
 
@@ -56,4 +56,10 @@ body {
   padding: 10px;
   border-radius: 5px;
   color: white;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+.forecast:hover {
+  background-color: #4a4e69;
 }
